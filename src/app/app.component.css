@@ -1,0 +1,29 @@
+h3{
+    color: rgb(84, 117, 117);
+    margin-left: 630px;
+    margin-top: 70px;
+}
+.btn{
+    margin-left: 500px;
+    margin-top: 20px;
+   
+}
+#button {
+    margin-right: 10px;
+ }
+.clear-btn {
+    margin-left: 100px; 
+}
+h4{
+    margin-left: 650px;
+    margin-top: 20px;
+    font-family:Arial, Helvetica, sans-serif
+}
+.player-x {
+    color: red;  
+  }
+  
+  .player-o {
+    color: blue;  
+  }
+  

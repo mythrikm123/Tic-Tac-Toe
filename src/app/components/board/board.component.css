@@ -1,0 +1,48 @@
+.tic-tac-toe {
+    margin-top: 40px;
+    margin-left: 550px;
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    font-size: 36px;
+    font-weight: bold;
+  
+  }
+  
+  .cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    border-bottom: 2px solid #333;  
+    border-right: 2px solid #333;   
+    cursor: pointer;
+  }
+  
+  /* .cell.top-left {
+    border-top: none;  
+    border-left: none;  
+  } */
+ 
+  .cell:nth-child(7), .cell:nth-child(8), .cell:nth-child(9) {
+    border-bottom: none;
+  }
+
+  .cell:nth-child(3), .cell:nth-child(6), .cell:nth-child(9) {
+    border-right: none;
+  }
+  .cell:nth-child(2), .cell:nth-child(4), .cell:nth-child(7) {
+    border-left: none;
+  }
+  
+  .cell:hover {
+    background-color: #f0f0f0;
+  }
+  span.o {
+    color: blue; /* Change the color for "O" */
+  }
+  
+  span.x {
+    color: red; /* Change the color for "X" */
+  }
+  

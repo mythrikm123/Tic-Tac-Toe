@@ -1,0 +1,9 @@
+<div class="tic-tac-toe">
+    <div class="cell" *ngFor="let cell of board; let i = index" (click)="makeMove(i)">
+      <span [ngClass]="cell === 'O' ? 'o' : (cell === 'X' ? 'x' : '')">
+        {{ cell }}
+      </span>
+    </div>
+  </div>
+  
+  
